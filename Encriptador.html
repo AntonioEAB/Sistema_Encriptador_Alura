@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema encriptador</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h2 id="titulo">    Alura</h2>
+    </header>
+    <div class="container">
+        
+        <div class="left-box">
+            <textarea class="textbox input-textbox" id="message" placeholder="Ingrese el texto en minusculas"></textarea>
+            <button class="button" id="Encriptar">Encriptar</button>
+            <button class="button" id="Desencriptar">Desencriptar</button>
+        </div>
+
+       
+
+        <div class="right-box">
+            <div>
+                <img id="imagen" src="assets\404.png" alt="No se encuentra el texto" >
+            </div>
+            <textarea class="textbox tall-textbox" id="answer" ></textarea> 
+            <button onclick="copiarTexto()" class="button">Copiar</button>
+        </div>
+    </div>
+    <footer>
+        <p>Este es el pie de página</p>
+    </footer>
+</body>
+</html>
+<script src="practica_1.js"></script>
+
