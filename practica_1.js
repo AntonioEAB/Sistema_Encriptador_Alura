@@ -1,6 +1,5 @@
 /**
- * Es el javascript del uso de encriptar y desencriptar
- */
+. */
 
 const myButton = document.getElementById("Encriptar");
 const myButton2 = document.getElementById("Desencriptar");
